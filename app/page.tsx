@@ -18,6 +18,9 @@ export default function Home() {
             <p className="inline-block rounded-full border border-[#ff6b8a33] bg-[#fff0f4] px-4 py-2 text-xs tracking-[0.22em] text-[#9c4466] uppercase">
               anime and cinema pilgrimages
             </p>
+            <p className="text-xs tracking-[0.28em] text-[#6e4f87] uppercase">
+              聖地巡礼 map guide
+            </p>
             <h1 className="max-w-xl font-display text-6xl leading-[0.95] md:text-8xl">
               Find the story behind every street.
             </h1>
@@ -49,8 +52,20 @@ export default function Home() {
                 <div className="absolute left-[72%] top-[63%] h-3 w-3 rounded-full bg-[#27a590] shadow-[0_0_0_5px_rgba(39,165,144,0.2)]" />
                 <div className="absolute left-[25%] top-[30%] h-[2px] w-[34%] rotate-[20deg] bg-[#30245e]/35" />
                 <div className="absolute left-[49%] top-[50%] h-[2px] w-[24%] rotate-[38deg] bg-[#30245e]/35" />
+                <div className="absolute left-[12%] top-[10%] rounded-full border border-[#30245e2d] bg-white/80 px-2 py-1 text-[10px] text-[#564975]">
+                  須賀神社階段
+                </div>
+                <div className="absolute left-[50%] top-[16%] rounded-full border border-[#30245e2d] bg-white/80 px-2 py-1 text-[10px] text-[#564975]">
+                  鎌倉高校前駅
+                </div>
+                <div className="absolute left-[60%] top-[70%] rounded-full border border-[#30245e2d] bg-white/80 px-2 py-1 text-[10px] text-[#564975]">
+                  大洗磯前神社
+                </div>
                 <div className="absolute bottom-3 left-3 rounded-full border border-[#30245e2d] bg-white/80 px-3 py-1 text-[11px] text-[#4d3f73]">
                   Tokyo Pilgrimage Route
+                </div>
+                <div className="absolute bottom-3 right-3 rounded-full border border-[#30245e2d] bg-white/80 px-3 py-1 text-[11px] text-[#4d3f73]">
+                  巡礼スポット 24
                 </div>
               </div>
 
@@ -67,6 +82,14 @@ export default function Home() {
                   Open the place card, compare the frame, then start
                   step-by-step navigation to the exact pilgrimage spot.
                 </p>
+                <div className="mt-3 flex gap-2 text-[11px] text-[#3d5676]">
+                  <span className="rounded-full border border-[#6fa7ff55] bg-white px-2 py-1">
+                    Anime Spot
+                  </span>
+                  <span className="rounded-full border border-[#ff7da655] bg-white px-2 py-1">
+                    Film Spot
+                  </span>
+                </div>
               </div>
 
               <div className="grid gap-3 sm:grid-cols-2">
